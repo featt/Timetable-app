@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_text_input">@color/gray_900</color>
+    <color name="border_color">@color/gray_900</color>
+    <color name="divider_color">@color/gray_600</color>
+</resources>

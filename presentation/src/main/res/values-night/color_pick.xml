@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="color_pick">
+        <item>@color/red_900</item>
+        <item>@color/pink_900</item>
+        <item>@color/purple_900</item>
+        <item>@color/deep_purple_900</item>
+        <item>@color/indigo_900</item>
+        <item>@color/blue_900</item>
+        <item>@color/light_blue_900</item>
+        <item>@color/cyan_900</item>
+        <item>@color/teal_900</item>
+        <item>@color/green_900</item>
+        <item>@color/light_green_900</item>
+        <item>@color/lime_900</item>
+        <item>@color/yellow_900</item>
+        <item>@color/amber_900</item>
+        <item>@color/orange_900</item>
+        <item>@color/deep_orange_900</item>
+        <item>@color/brown_900</item>
+        <item>@color/blue_gray_800</item>
+    </array>
+
+    <array name="color_card">
+        <item>@color/red_1000</item>
+        <item>@color/pink_1000</item>
+        <item>@color/purple_1000</item>
+        <item>@color/deep_purple_1000</item>
+        <item>@color/indigo_1000</item>
+        <item>@color/blue_1000</item>
+        <item>@color/light_blue_1000</item>
+        <item>@color/cyan_1000</item>
+        <item>@color/teal_1000</item>
+        <item>@color/green_1000</item>
+        <item>@color/light_green_1000</item>
+        <item>@color/lime_1000</item>
+        <item>@color/yellow_1000</item>
+        <item>@color/amber_1000</item>
+        <item>@color/orange_1000</item>
+        <item>@color/deep_orange_1000</item>
+        <item>@color/brown_1000</item>
+        <item>@color/blue_gray_900</item>
+    </array>
+</resources>

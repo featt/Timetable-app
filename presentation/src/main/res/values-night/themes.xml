@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Schedule" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/amber_200</item>
+        <item name="colorPrimaryVariant">@color/amber_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/amber_200</item>
+        <item name="colorSecondaryVariant">@color/amber_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?android:attr/colorBackground</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor" tools:targetApi="1">?android:attr/colorBackground</item>
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:colorBackground">@color/black_background</item>
+        <item name="bottomNavigationStyle">@style/BNViewStyle</item>
+        <item name="materialButtonStyle">@style/ButtonStyle</item>
+        <item name="buttonBarButtonStyle">@style/ButtonStyle</item>
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="android:fontFamily">@font/font_rubik_family</item>
+        <item name="materialTimePickerTheme">@style/MaterialTimePickerTheme</item>
+        <item name="materialTimePickerStyle">@style/MaterialTimePickerTheme</item>
+    </style>
+</resources>

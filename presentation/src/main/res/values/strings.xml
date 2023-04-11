@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Schedule</string>
+    <string name="settings">Settings</string>
+    <string name="home_screen">Home screen</string>
+    <string name="edit">Edit</string>
+    <string name="notes">Notes</string>
+    <string name="add_schedule">add_schedule</string>
+    <string name="lesson">Lesson</string>
+    <string name="teacher">Teacher</string>
+    <string name="audit">Auditorium</string>
+    <string name="time_start">Start</string>
+    <string name="time_end">End</string>
+    <string name="type_of_certification">Type of certification</string>
+    <string name="every_week">Every week</string>
+    <string name="create_lesson">Create lesson</string>
+    <string name="edit_lesson">Edit lesson</string>
+    <string name="obligatory_field">*Obligatory field</string>
+    <string name="save">Save</string>
+    <string name="there_are_no_classes_on_this_day">There are no classes on this day</string>
+    <string name="name_of_week">Name of a week</string>
+    <string name="delete_week">Delete week?</string>
+    <string name="choose_color">Choose a color</string>
+    <string name="dumping">Dumping</string>
+    <string name="full_schedule">Full schedule</string>
+    <string name="at_this_time_there_is_already_a_lesson">At this time there is already a lesson</string>
+    <string name="list_note_empty">Nothing is planned for this day</string>
+
+    <string name="enter_the_name_of_the_week">Enter the name of the week</string>
+
+    <!--  Диалог при нажатии на занятие  -->
+    <string-array name="list_dialog">
+        <item>Edit</item>
+        <item>Remove</item>
+    </string-array>
+
+    <string-array name="days_of_week">
+        <item>MN</item>
+        <item>TS</item>
+        <item>WD</item>
+        <item>TH</item>
+        <item>FR</item>
+        <item>ST</item>
+        <item>SN</item>
+    </string-array>
+
+    <string-array name="full_days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <!-- Preference Titles -->
+    <string name="theme_mode">Dark theme</string>
+    <string name="weeks">Weeks</string>
+
+    <string name="reply_title">Default reply action</string>
+    <string name="theme_key">theme_key</string>
+    <string name="weeks_key">weeks_key</string>
+    <string name="current_week_key">current_week_key</string>
+    <string name="current_week">Current week</string>
+    <string name="click_on_to_add_a_week">Click on + to add a week</string>
+    <string name="click_on_to_add_a_note">Click on + to add a note</string>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
+    <string name="deadline">Deadline</string>
+    <string name="color">Color</string>
+</resources>

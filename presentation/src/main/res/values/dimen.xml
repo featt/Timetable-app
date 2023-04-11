@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_dimen">10dp</dimen>
+    <dimen name="half_default_dimen">5dp</dimen>
+    <dimen name="bar_elevation">5dp</dimen>
+    <dimen name="elevation">3dp</dimen>
+    <dimen name="bottom_bar_elevation">20dp</dimen>
+    <dimen name="icon_button_size">40dp</dimen>
+    <dimen name="corner">15dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="icon_field_margin">25dp</dimen>
+    <dimen name="margin_vertical">15dp</dimen>
+    <dimen name="margin_card">12dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="dialog_dimen">20dp</dimen>
+    <dimen name="header_size">20sp</dimen>
+    <dimen name="button_dialog_size">15sp</dimen>
+    <dimen name="timeline_width">60dp</dimen>
+    <dimen name="margin_text">5dp</dimen>
+
+    <dimen name="text_secondary">13sp</dimen>
+
+    <dimen name="toolbar_title_size">18sp</dimen>
+    <dimen name="toolbar_subtitle_size">14sp</dimen>
+
+    <dimen name="bottom_bar_text_size">10sp</dimen>
+    <dimen name="main_text_size">16sp</dimen>
+</resources>

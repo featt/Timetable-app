@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory>
+
+        <Preference
+            app:key="@string/theme_key"
+            app:icon="@drawable/ic_brightness"
+            app:title="@string/theme_mode"/>
+
+        <Preference
+            app:key="@string/weeks_key"
+            app:icon="@drawable/ic_view_week"
+            app:title="@string/weeks"/>
+
+        <Preference
+            app:key="@string/current_week_key"
+            app:icon="@drawable/ic_app_switch"
+            app:title="@string/current_week"
+            app:isPreferenceVisible="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

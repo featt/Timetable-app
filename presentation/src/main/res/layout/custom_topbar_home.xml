@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/top_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/bar_elevation"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/default_dimen">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical|start"
+                    android:layout_weight="1">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/top_bar_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/toolbar_title_size"
+                        android:textColor="?android:attr/colorPrimary"
+                        android:layout_marginStart="@dimen/default_dimen" />
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/top_bar_show_tabs_btn"
+                        android:layout_width="@dimen/icon_button_size"
+                        android:layout_height="@dimen/icon_button_size"
+                        android:background="?android:attr/actionBarItemBackground"
+                        app:srcCompat="@drawable/ic_chevron_down"
+                        android:layout_marginVertical="@dimen/half_default_dimen"
+                        tools:ignore="ContentDescription" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/show_calendar"
+                    android:layout_width="@dimen/icon_button_size"
+                    android:layout_height="@dimen/icon_button_size"
+                    android:background="?android:attr/actionBarItemBackground"
+                    app:srcCompat="@drawable/ic_calendar_month"
+                    android:layout_marginVertical="@dimen/half_default_dimen"
+                    android:layout_marginEnd="@dimen/elevation"
+                    tools:ignore="ContentDescription"/>
+            </TableRow>
+
+            <ru.shiryaev.schedule.ui.views.CustomTabLayout
+                android:id="@+id/custom_tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="@dimen/default_dimen"
+                android:layout_marginBottom="@dimen/default_dimen"
+                android:visibility="gone" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

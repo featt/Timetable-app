@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <ru.shiryaev.schedule.ui.views.SquareImageView
+        android:id="@+id/item_im"
+        android:layout_width="@dimen/icon_button_size"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_checkbox_blank_circle"
+        android:layout_margin="@dimen/default_dimen"/>
+</layout>

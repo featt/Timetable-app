@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/top_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/bar_elevation"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/default_dimen">
+
+        <ru.shiryaev.schedule.ui.views.CustomTabLayout
+            android:id="@+id/custom_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/default_dimen" />
+    </com.google.android.material.card.MaterialCardView>
+</layout>

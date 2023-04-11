@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BNViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@drawable/bnv_background</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/gray_900</item>
+        <item name="colorPrimary">@color/gray_900</item>
+        <item name="colorSecondary">@color/gray_900</item>
+    </style>
+
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">?android:attr/windowBackground</item>
+    </style>
+
+    <style name="CardCornerWeek" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/default_dimen</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="cornerRadius">@dimen/half_default_dimen</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/TitleTextStyle</item>
+        <item name="titleTextColor">?android:attr/colorPrimary</item>
+        <item name="subtitleTextAppearance">@style/SubtitleTextStyle</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/toolbar_title_size</item>
+    </style>
+
+    <style name="SubtitleTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/toolbar_subtitle_size</item>
+    </style>
+
+    <style name="MaterialTimePickerTheme" parent="ThemeOverlay.MaterialComponents.TimePicker">
+        <item name="cornerSize">@dimen/dialog_dimen</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="clockIcon">@drawable/ic_baseline_access_time</item>
+        <item name="keyboardIcon">@drawable/ic_keyboard</item>
+    </style>
+
+    <style name="CalendarDateTextAppearance" parent="TextAppearance.MaterialCalendarWidget.Date">
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/main_text_size</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">@color/calendar_date_text_color</item>
+    </style>
+
+    <style name="TextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearance">@style/ShapeTextInput</item>
+        <item name="boxBackgroundColor">@color/background_text_input</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+    </style>
+
+    <style name="ShapeTextInput" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/default_dimen</item>
+    </style>
+</resources>

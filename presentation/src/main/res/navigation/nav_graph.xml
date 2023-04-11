@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="ru.shiryaev.schedule.ui.fragments.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="ru.shiryaev.schedule.ui.fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/editSchedule"
+        android:name="ru.shiryaev.schedule.ui.fragments.EditScheduleFragment"
+        android:label="EditScheduleFragment" />
+    <fragment
+        android:id="@+id/note"
+        android:name="ru.shiryaev.schedule.ui.fragments.NoteFragment"
+        android:label="NoteFragment" />
+</navigation>
